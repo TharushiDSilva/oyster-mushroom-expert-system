@@ -99,8 +99,8 @@ Content-Type: application/json
 
 ## Author
 
-**Tharushi De Silva** (De Silva W.T.W.), 224035N — University of Moratuwa
-Logic Programming and Artificial Cognitive Systems (LPACS)
+**Tharushi De Silva** (De Silva W.T.W.)
+Undergradute at the University of Moratuwa
 
 ## License
 
