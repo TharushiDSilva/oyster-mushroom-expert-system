@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --background: #221f18;
+  --surface: #2c2820;
+  --surface-hover: #34301f;
+  --foreground: #f4ecdc;
+  --muted: #b6ab93;
+  --border: #423c2c;
+  --accent: #f0923d;
+  --accent-strong: #d97a2a;
+  --accent-soft: rgba(240, 146, 61, 0.14);
+  --amber: #f0b429;
+  --danger: #e0715f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-amber: var(--amber);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-sora);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--background);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
